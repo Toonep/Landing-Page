@@ -2,8 +2,8 @@ export const content = {
   overview: {
     heading: 'Built for those who run a tight ship.',
     paragraphs: [
-      'Bristol is an intelligence platform for small and mid-sized businesses — purpose-built to bring the kind of operational clarity that enterprise companies take for granted down to the teams that need it most.',
-      'Named for the old maritime phrase <strong>"ship shape and Bristol fashion"</strong> — meaning everything in its proper place, working as it should — Bristol helps owners and operators see their business the way a seasoned captain reads the water: clearly, confidently, and always a step ahead.',
+      'Bristol is an intelligence and capital platform for small and mid-sized businesses — purpose-built to deliver the financial clarity, strategic guidance, and access to capital that enterprise companies take for granted, down to the owners and operators who need it most.',
+      'Named for the old maritime phrase <strong>"ship shape and Bristol fashion"</strong> — meaning everything in its proper place, working as it should — Bristol helps owner-operators see their business the way a seasoned captain reads the water: clearly, confidently, and always a step ahead. And when a business earns its Bristol rating, capital finds it.',
       'We\'re building something worth waiting for. Sign up above to be first to know when we\'re ready to set sail.',
     ],
   },
