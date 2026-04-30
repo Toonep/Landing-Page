@@ -92,11 +92,13 @@ export default function Hero() {
       {/* Glow blob */}
       <div style={{
         position: 'absolute', zIndex: 5,
-        width: 820, height: 480, borderRadius: '50%',
+        width: 'min(820px, 100vw)', height: 'min(480px, 60vw)',
+        borderRadius: '50%',
         background: 'radial-gradient(ellipse, rgba(61,122,106,0.42) 0%, rgba(61,122,106,0.18) 35%, rgba(44,66,87,0.10) 60%, transparent 80%)',
         filter: 'blur(52px)',
         animation: 'blobDrift 8s ease-in-out infinite, blobSwell 5s ease-in-out infinite',
         pointerEvents: 'none',
+        overflow: 'hidden',
       }}/>
 
       <div style={{ position: 'relative', zIndex: 10, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 24 }}>
