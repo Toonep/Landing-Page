@@ -34,7 +34,7 @@ function PillarCard({ pillar, delay }) {
       }}
     >
       <span style={{
-        fontFamily: 'var(--font-display)', fontSize: 10,
+        fontFamily: 'var(--font-display)', fontSize: 14,
         color: 'var(--nautical-brass)', letterSpacing: '0.28em',
       }}>{pillar.num}</span>
       <h3 style={{

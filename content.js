@@ -21,7 +21,7 @@ export const content = {
     {
       num: '03',
       title: 'Capital',
-      body: 'When your business is shipshape, Bristol can put capital behind it. We provide financing directly to the businesses we believe in — so when you\'re ready to grow, borrow, or transact, the door is already open.',
+      body: 'When your business is shipshape, Bristol can put capital behind it. We provide financing directly to the businesses we believe in — so when you\'re ready to grow, borrow, or transact, the door is always open.',
     },
   ],
 };
