@@ -86,7 +86,7 @@ export default function Hero() {
       minHeight: '100vh', position: 'relative', zIndex: 1,
       display: 'flex', flexDirection: 'column',
       alignItems: 'center', justifyContent: 'center',
-      padding: '96px 48px',
+      padding: '96px 48px 160px',
       textAlign: 'center',
     }}>
       {/* Glow blob */}
