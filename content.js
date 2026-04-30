@@ -11,17 +11,17 @@ export const content = {
     {
       num: '01',
       title: 'Clarity',
-      body: 'One honest view of your business — cash position, health, and readiness — pulled from the tools you already use. No more hunting through disconnected systems to find a number you almost trust.',
+      body: 'One honest view of your business — cash position, health, and readiness — pulled from the tools you already use. No more piecing together the picture from a dozen different systems.',
     },
     {
       num: '02',
       title: 'Confidence',
-      body: 'Decisions backed by real data, not gut feel. Bristol turns the numbers you already have into the insight you need to move forward — and the models to prove it.',
+      body: 'Decisions backed by real data, not gut feel. Bristol turns the numbers you already have into the insight you need — and the models to back it up.',
     },
     {
       num: '03',
       title: 'Capital',
-      body: 'When your business is shipshape, capital should follow. Bristol works in the background, maintaining a live rating of your business so that when you\'re ready to grow, borrow, or transact — you\'re already prepared.',
+      body: 'When your business is shipshape, Bristol can put capital behind it. We provide financing directly to the businesses we believe in — so when you\'re ready to grow, borrow, or transact, the door is already open.',
     },
   ],
 };
