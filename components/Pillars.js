@@ -66,7 +66,7 @@ export default function Pillars() {
 
       <div style={{ maxWidth: 900, margin: '0 auto' }}>
         <p style={{
-          fontFamily: 'var(--font-display)', fontSize: 10,
+          fontFamily: 'var(--font-display)', fontSize: 13,
           color: 'var(--verdigris)', letterSpacing: '0.32em',
           textTransform: 'uppercase', textAlign: 'center', marginBottom: 64,
         }}>WHAT WE&apos;RE BUILDING</p>

@@ -18,7 +18,7 @@ function ScrollIndicator() {
   };
   return (
     <div onClick={handleClick} style={{
-      position: 'absolute', bottom: 40,
+      position: 'absolute', bottom: 64,
       display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12,
       cursor: 'pointer', opacity: 0,
       animation: 'fadeUp 1.0s ease 2s forwards',
@@ -103,7 +103,7 @@ export default function Hero() {
         <HeroBurgee />
 
         <p style={{
-          fontFamily: 'var(--font-display)', fontSize: 11, letterSpacing: '0.35em',
+          fontFamily: 'var(--font-display)', fontSize: 14, letterSpacing: '0.35em',
           color: 'var(--verdigris)', textTransform: 'uppercase',
           opacity: 0, animation: 'fadeUp 1.0s ease 0.5s forwards',
         }}>LAUNCHING SOON</p>
@@ -111,6 +111,7 @@ export default function Hero() {
         <h1 style={{
           fontFamily: 'var(--font-display)',
           fontSize: 'clamp(42px, 7vw, 88px)',
+          fontWeight: 400,
           color: 'var(--chart-vellum)',
           letterSpacing: '0.14em',
           textShadow: '0 0 120px rgba(61,122,106,0.7), 0 0 48px rgba(61,122,106,0.35), 0 2px 24px rgba(25,43,56,0.9)',

@@ -39,7 +39,7 @@ export default function Overview() {
         <div>
           <p ref={refs[0]} className="reveal" style={{
             transitionDelay: `${delays[0]}s`,
-            fontFamily: 'var(--font-display)', fontSize: 10,
+            fontFamily: 'var(--font-display)', fontSize: 13,
             color: 'var(--verdigris)', letterSpacing: '0.32em',
             textTransform: 'uppercase', marginBottom: 18,
           }}>OVERVIEW</p>
