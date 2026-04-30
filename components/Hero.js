@@ -125,7 +125,7 @@ export default function Hero() {
           fontSize: 'clamp(19px, 2.6vw, 28px)',
           color: '#c8c1b0',
           textShadow: '0 0 60px rgba(61,122,106,0.45), 0 1px 16px rgba(25,43,56,0.7)',
-          maxWidth: 600,
+          maxWidth: 860,
           opacity: 0, animation: 'fadeUp 1.0s ease 0.8s forwards',
         }}>Making your business Ship Shape and Bristol Fashion.</p>
 
