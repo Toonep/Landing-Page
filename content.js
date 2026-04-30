@@ -11,17 +11,17 @@ export const content = {
     {
       num: '01',
       title: 'Clarity',
-      body: 'A single, honest view of your business. No more juggling spreadsheets or hunting through disconnected tools — everything that matters, surfaced in one place.',
+      body: 'One honest view of your business — cash position, health, and readiness — pulled from the tools you already use. No more hunting through disconnected systems to find a number you almost trust.',
     },
     {
       num: '02',
       title: 'Confidence',
-      body: 'Decisions backed by real data, not gut feel. Bristol turns the numbers you already have into the insight you actually need to move forward.',
+      body: 'Decisions backed by real data, not gut feel. Bristol turns the numbers you already have into the insight you need to move forward — and the models to prove it.',
     },
     {
       num: '03',
-      title: 'Command',
-      body: 'Tools built for the people running the ship. Designed for operators, not analysts — so you spend less time in dashboards and more time on the work that grows your business.',
+      title: 'Capital',
+      body: 'When your business is shipshape, capital should follow. Bristol works in the background, maintaining a live rating of your business so that when you\'re ready to grow, borrow, or transact — you\'re already prepared.',
     },
   ],
 };
