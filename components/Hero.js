@@ -1,6 +1,21 @@
 'use client';
 import { useState } from 'react';
 
+function LoadingDots() {
+  return (
+    <span style={{ display: 'inline-flex', alignItems: 'center', gap: 4 }}>
+      {[0, 0.18, 0.36].map((delay, i) => (
+        <span key={i} style={{
+          display: 'inline-block',
+          width: 5, height: 5, borderRadius: '50%',
+          background: 'var(--chart-vellum)',
+          animation: `dotBounce 0.9s ease-in-out ${delay}s infinite`,
+        }}/>
+      ))}
+    </span>
+  );
+}
+
 function HeroBurgee() {
   return (
     <svg width="72" height="86" viewBox="0 0 72 86" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -174,7 +189,7 @@ export default function Hero() {
                 onMouseEnter={e => e.currentTarget.style.background = '#4a8f7c'}
                 onMouseLeave={e => e.currentTarget.style.background = 'var(--verdigris)'}
               >
-                {status === 'loading' ? '...' : 'NOTIFY ME'}
+                {status === 'loading' ? <LoadingDots /> : 'NOTIFY ME'}
               </button>
             </form>
           )}
